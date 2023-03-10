@@ -1,0 +1,62 @@
+.form-1 {
+    margin: 50px 0px;
+
+    p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 29px;
+        color: #C3C3C3;
+    }
+
+    input {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 29px;
+        color: #181725;
+        width: 100%;
+        background-color: white;
+        border: 0px solid;
+    }
+
+    input:focus {
+        outline: none;
+    }
+
+    button {
+        width: 100%;
+        background-color: #53B175;
+        padding: 10px 0;
+        text-align: center;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFF9FF;
+        border: none;
+        border-radius: 50px;
+        margin-top: 24px;
+    }
+
+    &__labels {
+        border-bottom: 1px solid black;
+        padding-bottom: 10px;
+        margin-bottom: 24px;
+
+        input::placeholder {
+            color: #C3C3C3;
+        }
+    }
+
+    span {
+        color: #53B175;
+    }
+
+    &__confirm {
+        margin-top: 30px;
+        p {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 18px;
+            text-align: center;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+.productList__logos {
+  margin-top: 363px;
+  margin-bottom: 60px;
+}
+
+.centerUl {
+  height: 200px;
+}
+
+.hr {
+  border: 0;
+  height: 1px;
+  width: 100%;
+  background: linear-gradient(90deg,
+      rgba(192, 204, 218, 0.1) 0%,
+      rgba(192, 204, 218, 0.6) 50.38%,
+      rgba(192, 204, 218, 0.1) 100%);
+}
+
+.centerUl__h5 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #1d1d1f;
+}
+
+.centerUl__p {
+  font-size: 14px;
+  line-height: 21px;
+  color: #1d1d1f;
+  opacity: 0.75;
+}

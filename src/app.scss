@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: inherit;
+}
+
+body {
+    font-family: "Poppins";
+    color: #282938;
+}
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.heartStyle{
+    width: 35px !important;
+    height: 35px !important;
+    padding: 5px;
+}
+.heartStyle:hover{
+    color: white;
+    font-weight: 700;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+}
+.cartStyle:hover{
+    color: white;
+    font-weight: 700;
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 50%;
+}
+
+.plusIcon{
+ width: 45px !important;
+ height: 45px !important; 
+ border-radius: 17px;  
+}
+.plusIcon:hover{
+    opacity: 0.7;
+}
+.plusIcon:active{
+    background-color: green;
+}

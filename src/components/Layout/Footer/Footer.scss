@@ -1,0 +1,106 @@
+.footer {
+    padding-top: 45px;
+    background-color: #282828;
+    color: white;
+    position: relative;
+
+    h4 {
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 39px;
+    }
+
+    &__main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-between;
+        margin-top: 8px;
+
+        ul:nth-child(1) {
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+            width: 60%;
+
+            li:nth-child(3) {
+                display: flex;
+                gap: 24px;
+
+                a {
+                    width: 32px;
+                    height: 32px;
+                    padding: 5px;
+                    border-radius: 50%;
+                    background-color: rgba(67, 54, 54, 0.774);
+                }
+            }
+        }
+
+        ul:nth-child(2) {
+            display: grid;
+            grid-template-columns: 60% 40%;
+            justify-content: space-between;
+
+            strong {
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 28px;
+            }
+
+            img {
+                margin: 24px 0;
+            }
+        }
+    }
+
+    &__contact {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding: 20px 85px 18px 35px;
+        background-color: #53B175;
+        border-radius: 10px 10px 0 0;
+
+        p {
+            opacity: 0.6;
+            margin-bottom: 8px;
+        }
+
+        strong {
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 27px;
+        }
+    }
+
+    &__home {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+}
+
+.footer-bottom {
+    display: grid;
+    grid-template-columns: 40% 30%;
+    justify-content: space-between;
+
+    p {
+        font-size: 12px;
+        line-height: 18px;
+        padding: 22px 0px;
+        color: #000000;
+    }
+
+    li {
+        display: flex;
+        gap: 28px;
+        padding: 22px 0px;
+
+        strong {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 28px;
+            color: #282938;
+        }
+    }
+}

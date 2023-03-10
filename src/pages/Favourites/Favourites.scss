@@ -1,0 +1,45 @@
+.favourites {
+    background-color: #E5E5E5;
+
+    h3 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        margin-top: 10px;
+        margin-bottom: 60px;
+    }
+
+    h5 {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+        color: #181725;
+
+        span {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 18px;
+            color: #7C7C7C;
+        }
+    }
+
+    h4 {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        color: #53B175;
+
+        span {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #7C7C7C;
+        }
+    }
+
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(5, 25%);
+    }
+}

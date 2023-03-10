@@ -1,0 +1,68 @@
+.swippers {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    margin-bottom: 50px;
+    margin-top: 64px;
+
+    &__images {
+        display: flex;
+        gap: 10px;
+    }
+
+
+    &__royxat {
+        padding: 13px 50px 13px 13px;
+        border: 1px solid #E2E2E2;
+        border-radius: 18px;
+
+        strong {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 18px;
+            margin-top: 4px;
+            color: #7C7C7C;
+        }
+
+        h4 {
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 36px;
+            color: #53B175;
+
+        }
+
+        span {
+            font-size: 16px;
+            line-height: 24px;
+            color: #808080;
+            text-decoration: line-through;
+        }
+
+        button {
+            font-size: 14px;
+            line-height: 21px;
+            color: #BDBDBD;
+            margin-top: 16px;
+            text-align: center;
+            margin-left: 50px;
+        }
+    }
+
+    &__price {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        img {
+            width: 46px !important;
+            height: 46px !important;
+        }
+    }
+}

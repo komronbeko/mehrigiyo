@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from "react-router";
+import Layout from "./components/Layout";
+import BoshSahifa from "./pages/BoshSahifa/BoshSahifa";
+import Mahsulotlar from "./pages/Mahsulotlar/Mahsulotlar";
+import "@fontsource/poppins"
+import Favourites from "./pages/Favourites/Favourites";
+import Cart from "./pages/Cart/Cart";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Layout>
+      <Routes>
+        <Route path="/" element={<BoshSahifa/>}/>
+        <Route path="/mahsulotlar" element={<Mahsulotlar/>}/>
+        <Route path="/favourites" element={<Favourites/>}/>
+        <Route path="/cart" element={<Cart/>}/>
+      </Routes>
+    </Layout>
+    </>
   );
 }
 

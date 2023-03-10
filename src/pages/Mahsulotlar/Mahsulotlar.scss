@@ -1,0 +1,122 @@
+.productsPage {
+    padding-bottom: 290px;
+    padding-top: 40px;
+    background-color: #E5E5E5;
+
+    &__navigate {
+        display: flex;
+        gap: 3px;
+        font-size: 12px;
+        line-height: 18px;
+
+        a:hover {
+            color: #AB7A19;
+        }
+    }
+
+    &__navActive {
+        color: #53B175;
+    }
+
+    &__head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        h3 {
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 36px;
+            margin: 13px 0 24px;
+        }
+
+        &__search {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(199, 206, 222);
+            border-radius: 100px;
+            padding: 10px 15px;
+            width: 162px;
+            height: 34px;
+
+            input {
+                background-color: inherit;
+                width: 120px;
+                padding: 0 10px;
+                border-radius: 100px;
+            }
+
+            input:focus {
+                outline: none;
+            }
+        }
+    }
+
+    &__body {
+        display: grid;
+        grid-template-columns: 25% 60%;
+        gap: 70px;
+        align-items: flex-start;
+    }
+
+    &__categories {
+        box-shadow: 0px 15px 60px rgba(22, 22, 22, 0.1);
+        border-radius: 15px;
+        padding: 20px 12px 20px 20px;
+        background-color: white;
+
+        div:nth-child(1) {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 14px;
+
+            h5 {
+                font-weight: 600;
+                line-height: 24px;
+            }
+
+            p {
+                font-size: 14px;
+                line-height: 21px;
+                text-decoration: underline;
+                color: #B0B7C3;
+                cursor: pointer;
+            }
+        }
+
+        div:nth-child(3) {
+            margin-top: 20px;
+            cursor: pointer;
+
+            p {
+                color: #53B175;
+                line-height: 24px;
+                text-decoration: underline;
+            }
+        }
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+
+            label {
+                display: flex;
+                align-items: center;
+            }
+
+            input {
+                margin-right: 15px;
+                width: 17px;
+                height: 17px;
+                line-height: 24px;
+                color: black;
+                background-color: white;
+                border-radius: 4px;
+            }
+        }
+    }
+
+}
